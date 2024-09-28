@@ -24,7 +24,7 @@ async function checkweather(city) {
         document.querySelector(".wind").innerHTML=data.wind.speed+"Km/h";
         
         if(data.weather[0].main=="Clouds"){
-            weathericon.src="cloud.png";
+            weathericon.src="clouds.png";
     
         }
         else if(data.weather[0].main=="rain") {
